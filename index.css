@@ -91,17 +91,26 @@ button {
     .parent {
         flex-direction: column;
         width: 100%;
+        padding-top: 30px;
+        border-radius: 0px;
 
+    }
+
+
+    .child-2 {
+        width: 90%;
+        margin: auto;
     }
 
     form {
         width: 100%;
-        padding: 30px;
+        padding: 10px;
+        margin: auto;
         background-color: #FFFFFF;
     }
 
     form input {
-        width: 100%;
+        width: 95%;
     }
 
     .child-1 p {
@@ -109,7 +118,9 @@ button {
         font-weight: 500;
 
     }
-    
+    hr {
+        width: 90%;
+    }
 
 }
 
@@ -118,8 +129,13 @@ button {
         width: 100%;
         margin: auto;
         display: flex;
+    }
 
-
+    .child-1 {
+        width: 45%;
+    }
+    .child-2 {
+        width: 45%;
     }
 
     form {
